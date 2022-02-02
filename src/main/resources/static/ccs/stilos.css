@@ -80,5 +80,5 @@ position: absolute;
 
 #tablaresumen tr:nth-child(even){
     background-color: white;
-    color: red;
+    color: green;
 }
