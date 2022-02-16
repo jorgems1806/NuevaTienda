@@ -32,7 +32,7 @@
     color: black;
 }
 
-#menu a:over{
+#menu a:hover {
     background-color: green;
     color: white;
 }
@@ -41,7 +41,7 @@
 position: absolute;
     top: 12%;
     left: 0;
-    height: 81%;
+    height: 80%;
     width: 20%;
     background-color: #00FFA0;
     padding: 10px;
@@ -51,7 +51,7 @@ position: absolute;
     position: absolute;
     top: 12%;
     left: 20%;
-    height: 81%;
+    height: 82%;
     width: 80%;
     background-color: #7901A0;
     padding: 10px;

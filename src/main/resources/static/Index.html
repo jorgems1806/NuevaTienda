@@ -6,16 +6,27 @@
         <meta charset="UTF-8">
         <meta name="desccription" content="Esta pagina contiene etiqutas del tipo html5 y luego enlaces o definicion de estilos ccs3">
         <meta name = "keywords" content="html5, ccs3, web, fidelitas">
+        
+        <link href="ccs/menu.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <header id="encabezado"> <!-- Etiquta para ofrecerle al browser info de que es un encabezado -->
-            <h1>TechShop</h1>
-        </header>
-        <nav id="menu"> <!-- Esta etiqueta es para ilustrarle al browser que posiblemente es un menu -->
-            <a href="ejemplo9.html">Back</a>|
-            <a href="index.html">Home</a>|
-            <a href="ejemplo2.html">Next</a><br>
+        <header class="header"><!<!-- Etiqueta para para ofrecerle al browser info de que es un encabezado -->
+            
+        <nav class="nav "><!<!-- Esta etiqueta es para ilustrarle al browser que posiblemente es un menu  -->
+            <a href="Index.html" class="logo nav-link">TechShop</a>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="ejemplo9.html">&LeftTriangleBar;</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="index.html">&RightTriangleBar;</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="Audios.html">Audios</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="Videos.html">Videos</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="iframes.html">iFrames</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="Forms.html">Formulario</a></li>
+            </ul>
         </nav>
+            
+        </header>
+        
+        
         <aside id="barralateral"><!-- Etiqueta para indicar barra lateral al final, puede ser a la izquierda o a la derecha y puede ser varias -->
             <h2>Productos mas vendidos</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit integer interdum, eu orci nullam mattis proin luctus fusce non, nulla habitant in facilisi nec mus nostra vulputate. Est tempor mattis sociis semper mauris dapibus leo duis, morbi accumsan porta nisl pulvinar sapien ad nunc pharetra, nascetur nulla suspendisse eros augue in fames. Praesent porta vulputate platea porttitor et curabitur blandit fusce fames, ligula tempor luctus nullam proin iaculis pulvinar ad nulla, auctor montes egestas eu eleifend nisi laoreet vestibulum.</p>
@@ -91,7 +102,7 @@
             </article>
 
         </section>
-        <footer>Derechos reservados <cite>tel 22885941</cite></footer>
+        <footer>Derechos reservados <address style="display:inline">tel 22885941</address></footer>
         <p>Ultima linea</p>
     </body>
 </html>
