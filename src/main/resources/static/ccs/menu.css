@@ -1,23 +1,23 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
-    fot-family: sans-serif;
+body {
+    font-family: sans-serif;
     padding: 90px 20px 0;
 }
 
-.header{
-    background-color: blanchedalmond;
+.header {
+    background-color: #076AF0;
     height: 80px;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%
+    width: 100%;
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     max-width: 992px;
@@ -25,33 +25,32 @@ body{
 }
 
 .nav-link{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
-.logo{
+.logo {
     font-size: 30px;
     font-weight: bold;
     padding: 0 40px;
     line-height: 80px;
-    
 }
 
-.nav-menu{
+.nav-menu {
     display: flex;
-    margin-right: 40px;
+    margin-left: 40px;
     list-style: none;
 }
 
-.nav-menu-item{
+.nav-menu-item {
     font-size: 18px;
     margin: 0 10px;
     line-height: 80px;
     width: max-content;
 }
 
-.nav-menu-link:hover{
-    background-color: white;
+.nav-menu-item:hover {
+    background-color: #024070;
     transition: 0.5s;
 }
 
@@ -60,3 +59,23 @@ body{
     border-radius: 4px;
 }
 
+.footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
+
+.contenido {
+    background-color: wheat;
+    position: fixed;
+    top: 80px;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    overflow: auto;
+}
